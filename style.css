@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at top, #2b0033, #000);
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #ff3366;
+  text-shadow: 0 0 15px #ff3366;
+}
